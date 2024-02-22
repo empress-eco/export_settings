@@ -1,5 +1,6 @@
 <div align="center">
-![Project Logo](https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png
+<img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Logo" width="80" height="80">
+
 <h1 align="center">Empress: Export Settings - Streamline Your Data Exports</h1>
 <p align="center">
 An essential tool that allows users to predefine export fields, simplifying data export operations and enhancing user experience.
