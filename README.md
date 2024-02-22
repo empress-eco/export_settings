@@ -1,68 +1,79 @@
-## **Frappe Export Settings**
+<div align="center">
+![Project Logo](https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png
+<h1 align="center">Empress: Export Settings - Streamline Your Data Exports</h1>
+<p align="center">
+An essential tool that allows users to predefine export fields, simplifying data export operations and enhancing user experience.
+<br />
+<a href="https://grow.empress.eco/">Explore the Docs</a>
+·
+<a href="https://github.com/empress-eco/export_settings/issues">Report Bug</a>
+·
+<a href="https://github.com/empress-eco/export_settings/issues">Request Feature</a>
+</p>
+</div>
 
-### **Overview**
+## About The Project
 
-This app allows you to predefine the fields you want to export from any given doctype in Frappe. The app adds a new "Export Settings" doctype where users can specify which fields should be prechecked when they open the Export Data dialog box.
+### 📖 Overview
+Empress: Export Settings is a robust, user-friendly tool tailored for those who frequently export data. It allows users to predefine the fields they wish to export, saving precious time and reducing manual effort. This feature is available for any doctype in Empress.
 
-### **Features**
+### 🌟 Key Features
+- Define prechecked fields for any doctype
+- Simplify the data export process
+- Enhance user experience by minimizing manual selections
 
-1. Define prechecked fields for any doctype
-1. Simplify the data export process
-1. Improve user experience by minimizing manual selections
+## Getting Started
 
-### **Installation**
-  Prerequisites
-  Make sure you have Frappe installed.
+### Prerequisites
+Ensure you have Empress installed before proceeding.
 
-#### **Steps**
+### Installation
+Follow these straightforward steps to set up a development environment:
 
-1. Navigate to your Frappe bench folder:
+```sh
+# Navigate to your Empress bench folder
+cd path/to/your/bench 
 
-   `cd path/to/your/bench`
+# Clone the GitHub repository
+git clone https://github.com/empress-eco/export_settings.git
 
-1. dd the GitHub repository:
+# Install the app onto your site
+bench --site your-site-name install-app export_settings
 
-   `bench get-app https://github.com/zaid2229/Export-Settings.git`
+# Migrate the database
+bench migrate
 
-1. Install the app onto your site:
+# Restart your Empress server
+bench restart
+```
 
-   `bench --site your-site-name install-app export_setting`
+## Usage
+Using Empress: Export Settings is a breeze. Here's a quick start guide:
 
-1. Migrate the database:
+_To create a new Export Setting:_
+1. Go to the 'Export Settings' doctype.
+2. Select the doctype you want to configure.
+3. Check the fields that should be prechecked during export.
+4. Save the document.
 
-   `bench migrate`
+_To export data:_
+1. Navigate to the doctype for which you've set the export settings.
+2. Click on the 'Export' button.
+3. Notice that the fields specified in the 'Export Settings' are prechecked.
 
-1. Finally, restart your Frappe server:
+## Contributing
+We welcome and appreciate contributions! Here's how you can contribute:
 
-   `bench restart`
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### **Usage**
-
-#### - Creating a new Export Setting
-  
-    1. Go to the 'Export Settings' doctype.
-    2. Select the doctype you want to configure.
-    3. Check the fields that should be prechecked during export.
-    4. Save the document.
-       
-#### - Exporting Data
-  
-    1. Navigate to the doctype for which you've set the export settings.
-    2. Click on the 'Export' button.
-    3. Notice that the fields specified in the 'Export Settings' are prechecked.
-
-### Snapshots
-
-
-
-https://github.com/zaid2229/Export-Settings/assets/60132555/db43763b-e0f2-41fc-99c7-0185b927effc
-
-
-
-
-
-
+## License and Acknowledgements
 
 ### License
+This project is licensed under the MIT License. Your contributions will also be licensed under the same.
 
-MIT
+### Acknowledgements
+A special note of gratitude to the Empress Community for their foundational contributions to this project. Their innovation and dedication have been instrumental in building the essential tools that power this project. We are profoundly thankful for their pioneering work and persistent support.
